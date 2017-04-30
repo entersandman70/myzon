@@ -22,7 +22,7 @@
 	
   </requires>
     <extension point="xbmc.python.pluginsource" library="myzon.py">
-    <datadir zip="true">https://raw.githubusercontent.com/entersandman70/myzon/master/myzon.py</datadir>	
+    <datadir zip="true">https://github.com/entersandman70/myzon/raw/master/zip.zip</datadir>	
     <provides>video</provides>
 	 </extension>
   <extension point="xbmc.addon.metadata">
