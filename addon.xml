@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.MyZonKuliah"
+	name="[COLOR yellow][B]MYZon[/B][/COLOR] [COLOR red]Kuliah[/COLOR]"
+	version="1.0.0"
+	provider-name="Entersandman">
+	
+	  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+	<import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+	
+  </requires>
+    <extension point="xbmc.python.pluginsource" library="myzon.py">
+	
+    <provides>video</provides>
+	 </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR yellow]MYZon[/COLOR] [COLOR red]Kuliah[/COLOR]</summary>
+    <description lang="en">[B]KOLEKSI CERAMAH AGAMA[/B] [COLOR red]Kata yang paling indah adalah [COLOR yellow]ALLAH[/COLOR]...Lagu yang paling merdu adalah [COLOR yellow]AZAN[/COLOR]...Sukan yang paling bermanfaat adalah [COLOR yellow]SOLAT[/COLOR]...Buku yang paling sempurna adalah [COLOR yellow]ALQURAN[/COLOR]...Kata yang paling indah adalah [COLOR yellow]ALLAH[/COLOR]...[/COLOR]
+    </description>
+	<disclaimer lang="en">[COLOR red]Gunakan Sebaik baiknya[/COLOR]</disclaimer>
+	<platform>all</platform>
+    
+	<forum></forum>
+    <source>https://www.youtube.com/user/teamkosuke</source>
+    <website></website>
+    <email></email>
+  </extension>
+</addon>
